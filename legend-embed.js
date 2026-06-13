@@ -1,14 +1,14 @@
 class LegendEmbed extends HTMLElement {
   connectedCallback() {
-    const iframe = document.createElement('iframe');
-
-    iframe.src = 'https://legends.wix.com/qm0xBm';
-    iframe.allow = 'camera; microphone; autoplay';
-    iframe.style.width = '100%';
-    iframe.style.height = '800px';
-    iframe.style.border = 'none';
-
-    this.appendChild(iframe);
+    this.innerHTML = `
+      <div style="height:800px;">
+        <iframe
+          src="https://legends.wix.com/qm0xBm"
+          allow="camera; microphone; autoplay"
+          style="width:100%; height:100%; border:none;"
+        ></iframe>
+      </div>
+    `;
   }
 }
 
