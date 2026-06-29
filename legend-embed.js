@@ -3,7 +3,7 @@ class LegendEmbed extends HTMLElement {
     this.innerHTML = `
       <div style="height:800px;">
         <iframe
-          src="https://legends.wix.com/qm0xBm"
+          src="https://noafe4.wixsite.com/default-dolly-122"
           allow="camera; microphone; autoplay"
           style="width:100%; height:100%; border:none;"
         ></iframe>
